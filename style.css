@@ -1,0 +1,107 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+/* Set the background color and text color of the body */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style the container that holds the URL shortener content */
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Style the heading */
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Style the input container */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style the input field for the long URL */
+
+.input-container input[type="text"] {
+    flex: 1;
+    height: 40px;
+    border: 1px solid #555;
+    padding: 0 10px;
+    border-radius: 5px 0 0 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Style the button for the URL shortening action */
+
+.input-container button {
+    height: 40px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Add hover effect to the URL shortening button */
+
+.input-container button:hover {
+    background-color: #45a049;
+}
+
+/* Style the container for the output (shortened URL) */
+
+.output-container {
+    display: none;
+    align-items: center;
+}
+
+/* Style the input field for the shortened URL */
+
+.output-container input[type="text"] {
+    flex: 1;
+    height: 40px;
+    border: 1px solid #555;
+    padding: 0 10px;
+    border-radius: 5px 0 0 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Style the button for copying the shortened URL */
+
+.output-container button {
+    height: 40px;
+    border: none;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Add hover effect to the copy button */
+
+.output-container button:hover {
+    background-color: #1976D2;
+}
